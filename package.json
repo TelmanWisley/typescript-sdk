@@ -4,6 +4,7 @@
   "description": "Typescript SDK for Absinthe Assignment",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,19 @@
   "homepage": "https://github.com/TelmanWisley/typescript-sdk#readme",
   "engines": {
     "node": ">=20.10.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "axios": "^1.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "typescript-eslint": "^7.11.0"
   }
 }
