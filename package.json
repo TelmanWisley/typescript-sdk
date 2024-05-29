@@ -1,0 +1,25 @@
+{
+  "name": "@telmanwisley/typescript-sdk",
+  "version": "0.0.1",
+  "description": "Typescript SDK for Absinthe Assignment",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TelmanWisley/typescript-sdk.git"
+  },
+  "keywords": [
+    "sdk"
+  ],
+  "author": "telmanwisley <telmanwisley@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TelmanWisley/typescript-sdk/issues"
+  },
+  "homepage": "https://github.com/TelmanWisley/typescript-sdk#readme",
+  "engines": {
+    "node": ">=20.10.0"
+  }
+}
